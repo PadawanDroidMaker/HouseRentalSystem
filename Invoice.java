@@ -1,13 +1,21 @@
+
 package house_rental_system;
 
 import java.util.List;
 
-public class Invoice extends Payment {
-	
+public class Invoice {
+
 	private int invoiceNo;
 	private Date invoiceDate;
 	private List<Payment> payments;
-	
+
+	public Invoice(int invoiceNo, Date invoiceDate, List<Payment> payments) {
+		super();
+		this.invoiceNo = invoiceNo;
+		this.invoiceDate = invoiceDate;
+		this.payments = payments;
+	}
+
 	public int getInvoiceNo() {
 		return invoiceNo;
 	}
@@ -26,8 +34,5 @@ public class Invoice extends Payment {
 	public void setPayments(List<Payment> payments) {
 		this.payments = payments;
 	}
-
-	
-	
 
 }
