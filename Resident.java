@@ -1,11 +1,18 @@
 package people;
 
 public class Resident extends Tenant {
-
-  private int qatarId;
+	
+	private int qatarId;
 	private String bankName;
 	private String bankAccountNo;
 	
+	public Resident(int tenantId, String name, String phone, String address, String nationality, int qatarId,
+			String bankName, String bankAccountNo) {
+		super(tenantId, name, phone, address, nationality);
+		this.qatarId = qatarId;
+		this.bankName = bankName;
+		this.bankAccountNo = bankAccountNo;
+	}
 	
 	public int getQatarId() {
 		return qatarId;
@@ -25,5 +32,6 @@ public class Resident extends Tenant {
 	public void setBankAccountNo(String bankAccountNo) {
 		this.bankAccountNo = bankAccountNo;
 	}
-  
+	
+	
 }
