@@ -3,15 +3,18 @@
 
 package people;
 
-public class Tenant {
-	//Instance variables
+public class Tenant { // Created by Nourhan Ibrahim
+
 	private int tenantId;
 	private String name;
 	private String phone;
 	private String address;
 	private String nationality;
-	
-	//Constructor
+
+	public Tenant() {
+
+	}//end of default constructor
+
 	public Tenant(int tenantId, String name, String phone, String address, String nationality) {
 		super();
 		this.tenantId = tenantId;
@@ -19,45 +22,52 @@ public class Tenant {
 		this.phone = phone;
 		this.address = address;
 		this.nationality = nationality;
-	} //end of constructor
-	
-	//Getters and setters
-	
+	} //end of Payment constructor
+
 	public int getTenantId() {
 		return tenantId;
-	} //end of getTenantId
+	}//end of getTenantId method
+
 	public void setTenantId(int tenantId) {
 		this.tenantId = tenantId;
-	} //end of setTenantId
+	}//end of setTenantId method
+
 	public String getName() {
 		return name;
-	} //end of getName
+	}//end of getName method
+
 	public void setName(String name) {
 		this.name = name;
-	} //end of setName
+	}//end of setName method
+
 	public String getPhone() {
 		return phone;
-	} //end of getPhone
+	}//end of getPhone method
+
 	public void setPhone(String phone) {
 		this.phone = phone;
-	} //end of setName 
+	}//end of setPhone method
+
 	public String getAddress() {
 		return address;
-	} //end of getAddress
+	}//end of getAddress method
+
 	public void setAddress(String address) {
 		this.address = address;
-	} //end of setAddress
+	}//end of setAddress method
+
 	public String getNationality() {
 		return nationality;
-	} //end of getNationality
+	}//end of getNationality method
+
 	public void setNationality(String nationality) {
 		this.nationality = nationality;
-	} //end of setNationality
+	}//end of setNationality method
 
 	@Override
 	public String toString() {
 		return "Tenant [tenantId=" + tenantId + ", name=" + name + ", phone=" + phone + ", address=" + address
 				+ ", nationality=" + nationality + "]";
-	} //end of toString
-	
-} //end of Tenant Class
+	}//end of toString method
+
+}//end of Tenant class
