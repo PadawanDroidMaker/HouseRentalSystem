@@ -10,49 +10,83 @@ import projectphase1.HouseType;
 public class AppTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		//Test Method #1: Update payment information
+		
+		
+		//Test Method #2:
+		
 
-		ArrayList<Tenant> tenantList = new ArrayList<Tenant>();
 		
-		ArrayList<House> houseList = new ArrayList<House>();
-		House h1 = new House (22,"AlSadd",new HouseType(246,"Villa",6000));
+		//Test Method #3:
 		
-		System.out.println(h1);
-		
-		ArrayList<HouseRental> houseRentalList = new ArrayList<HouseRental>();
-		
-		
-		
-		
-	}
-	
-	public void addHouse (House house) {
-		
-		
-		
-    }//end of addHouse method
-	
-    public void findHouse(int houseNo) {
-		
-	}//end of findHouse method
 
-	public void deleteHouse(int houseNo) {
 		
-	}//end of deleteHouse method
-	
-	public static boolean getHouseByAvailability(ArrayList<House> houseList) {
-		boolean availabile;
-		for(int i=0;i<houseList.length;i++) {
-			if(availabile)
-				return true;
-			else
-				return false;
-		}
-	}//end of getHouseByAvailability method
-	
-	public void addHouseRental(HouseRental houseRental) {
+		//Test Method #4:
 		
-	}//end of addHouseRental method
-	
-	
-}
+
+		
+		//Test Method #5:
+		
+
+		
+		//Test Method #6:
+		
+
+		
+		//Test Method #7:
+		
+
+		
+		//Test Method #8:
+		
+
+		
+		//Test Method #9:
+		
+
+		
+		//Test Method #10:
+		
+
+		
+		//Test Method #11:
+		
+
+		
+		//Test Method #12:
+		
+
+		
+		//Test Method #13:
+		
+
+		
+		//Test Method #14:
+		
+
+		
+		//Test Method #15:
+		
+
+		
+		//Test Method #16:
+		
+
+		
+		//Test Method #17:
+		
+
+		
+		//Test Method #18:
+		
+
+		
+		
+		
+		
+
+
+	}//end of method main
+
+}//end of AppTest class
