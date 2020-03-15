@@ -1,53 +1,46 @@
+//Name: Nourhan Ibrahim
+//QU ID: 201608687
+
 package people;
 
-public class Resident extends Tenant { //Created by Nourhan Ibrahim 
-
+public class Resident extends Tenant {
+	//Instance variables
 	private int qatarId;
 	private String bankName;
 	private String bankAccountNo;
-
-	public Resident(int qatarId,String bankName, String bankAccountNo) {
-		super();
-		this.qatarId = qatarId;
-		this.bankName = bankName;
-		this.bankAccountNo = bankAccountNo;
-	}//end of Resident constructor with 3 parameters
-
+	
+	//Constructor
 	public Resident(int tenantId, String name, String phone, String address, String nationality, int qatarId,
 			String bankName, String bankAccountNo) {
 		super(tenantId, name, phone, address, nationality);
 		this.qatarId = qatarId;
 		this.bankName = bankName;
 		this.bankAccountNo = bankAccountNo;
-	}//end of Resident constructor with 8 parameters
-
+	}//end of constructor
+	
+	//Getters and setters
 	public int getQatarId() {
 		return qatarId;
-	}//end of getQatarId method
-
+	}//end of getQatarId
 	public void setQatarId(int qatarId) {
 		this.qatarId = qatarId;
-	}//end of setQatarId method
-
+	}//end of setQatarId
 	public String getBankName() {
 		return bankName;
-	}//end of getBankName method
-
+	}//end of getBankName
 	public void setBankName(String bankName) {
 		this.bankName = bankName;
-	}//end of setBankName method
-
+	}//end of setBankName
 	public String getBankAccountNo() {
 		return bankAccountNo;
-	}//end of getBankAccountNo method
-
+	}//end of getBankAccountNo
 	public void setBankAccountNo(String bankAccountNo) {
 		this.bankAccountNo = bankAccountNo;
-	}//end of setBankAccountNo method
+	}//end of setBankAccountNo
 
 	@Override
 	public String toString() {
-		return super.toString()+"  " + qatarId + "  " + bankName + "  " + bankAccountNo;
-	}//end of toString method
-
-}//end of Resident class
+		return super.toString() + "Resident [qatarId=" + qatarId + ", bankName=" + bankName + ", bankAccountNo=" + bankAccountNo + "]";
+	}//end of toString
+	
+}//end of Resident Class
